@@ -1,0 +1,88 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Catalyst Engine 3D Desktop Application</Name>
+    <Description>A Catalyst Engine 3D Desktop Application built with OpenTK.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Catalyst Engine 3D Desktop Application</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="CatalystEngine.csproj" File="CatalystEngine.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <Folder Name="PublishProfiles" TargetFolderName="PublishProfiles">
+          <ProjectItem ReplaceParameters="false" TargetFileName="FolderProfile.pubxml">FolderProfile.pubxml</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Attributes" TargetFolderName="Attributes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ApplyToName.cs">ApplyToName.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Components" TargetFolderName="Components">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Rigidbody.cs">Rigidbody.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Debug" TargetFolderName="Debug">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DebugSettings.cs">DebugSettings.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DebugSettings.json">DebugSettings.json</ProjectItem>
+      </Folder>
+      <Folder Name="Graphics" TargetFolderName="Graphics">
+        <ProjectItem ReplaceParameters="true" TargetFileName="FBO.cs">FBO.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IBO.cs">IBO.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ShaderProgram.cs">ShaderProgram.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Texture.cs">Texture.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="VAO.cs">VAO.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="VBO.cs">VBO.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="GameObject.cs">GameObject.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Mesh.cs">Mesh.cs</ProjectItem>
+      </Folder>
+      <Folder Name="OBJs" TargetFolderName="OBJs" />
+      <Folder Name="Scenes" TargetFolderName="Scenes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="blocks.json">blocks.json</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="house.json">house.json</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="objs.json">objs.json</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="scene1.json">scene1.json</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="tree.json">tree.json</ProjectItem>
+      </Folder>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CreateScript.py">CreateScript.py</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Testing.cs">Testing.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ScriptsCore" TargetFolderName="ScriptsCore">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IScript.cs">IScript.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ScriptBase.cs">ScriptBase.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ScriptManager.cs">ScriptManager.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Shaders" TargetFolderName="Shaders">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Default.frag">Default.frag</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Default.vert">Default.vert</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="skybox.frag">skybox.frag</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="skybox.vert">skybox.vert</ProjectItem>
+      </Folder>
+      <Folder Name="Textures" TargetFolderName="Textures">
+        <ProjectItem ReplaceParameters="false" TargetFileName="brick.jpg">brick.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="crate.png">crate.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="cratespecular.png">cratespecular.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="grass.png">grass.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="px.png">px.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="StandardCubeMap.png">StandardCubeMap.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Stone.jpg">Stone.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Texture.png">Texture.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Tree.png">Tree.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Wood.jpg">Wood.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Camera.cs">Camera.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Scene.cs">Scene.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Window.cs">Window.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
